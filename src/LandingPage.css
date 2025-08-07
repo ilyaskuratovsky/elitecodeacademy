@@ -1,0 +1,121 @@
+/* Dark theme with subtle gradient background */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1f2937, #111827);
+  color: #e0e7ff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Sticky header bar */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  padding: 12px 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.header-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.25rem;
+}
+
+/* Contact button in header */
+.contact-button {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: white;
+  color: #2563eb;
+}
+
+/* Main landing page styles */
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main-header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #e0e7ff;
+}
+
+.main-header p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+}
+
+.enroll-button {
+  padding: 12px 28px;
+  font-size: 1rem;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enroll-button:hover {
+  background-color: #2563eb;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section h2 {
+  font-size: 1.8rem;
+  color: #f3f4f6;
+  margin-bottom: 12px;
+}
+
+.section p {
+  font-size: 1.05rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+.image-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* You can adjust this to your liking */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
