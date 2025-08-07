@@ -1,5 +1,6 @@
 {
   "name": "elitecodeacademy",
+  "homepage": "https://ilyaskuratovsky.github.io/elitecodeacademy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,7 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://ilyaskuratovsky.github.io/elitecodeacademy",
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
