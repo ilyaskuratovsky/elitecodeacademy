@@ -1,6 +1,5 @@
 {
   "name": "elitecodeacademy",
-  "homepage": "https://elitecodeacademy.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
